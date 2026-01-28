@@ -1,13 +1,8 @@
-print('Hello World')
-print(57)
-minTemp=10
-maxTemp=25
-print("Minimum temperature was",minTemp,"degrees and the maximum was",maxTemp, "degrees")
-name='Coralie Sophie Abbenzeller'
-age=23
-height=1.65
-firm='I started my apprenticeship at Swissnet ICT GmbH'
-print("Name:",name)
-print("Age:",age)
-print("Height:",height)
-print(firm)
+num1=input("Please enter a number")
+num2=input("Please enter a second number")
+if num1>num2:
+    print("The bigger number is num1:",num1)
+else:
+    print("The bigger number is num2:",num2)
+if num1==num2:
+    print("num1 equals num2")
